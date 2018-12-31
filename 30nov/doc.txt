@@ -1,0 +1,18 @@
+Datatypes in PHP: it specify type of data which is stored by an variable, in 				      PHP datatypes are managed internally
+
+Types of datatype:
+
+1) Primitive datatype : Built-in datatype which have internal support of 					     language
+
+int ,  float  , string , boolean
+
+2) Non-Primitive datatype : User defined datatype which are generated as 						     per users requirement	
+
+array , object(class)
+
+3) Special datatype : They will show their dynamic appearance in some 				           PHP implementations
+
+Resource
+NULL
+
+
