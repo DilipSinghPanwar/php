@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>JS Demo</title>
+		<script>
+		function showDate()
+		{
+			var ref
+			ref=document.getElementById('mydate')
+			ref.innerHTML=Date()		
+		}
+		function showDate1()
+		{
+			document.getElementById('mybtn').innerHTML=Date()		
+		}
+		</script>
+	</head>
+	<body>
+<button onclick="showDate()">Click here to show Date!!!</button>
+<br/><br/>
+<button ondblclick="showDate()">Click here to show Date!!!</button>
+<br/><br/>
+<button id="mybtn" onclick="showDate1()">Click here!!!</button>
+		<h1 id="mydate"></h1>
+	</body>
+</html>
